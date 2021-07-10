@@ -1,0 +1,24 @@
+<div fxLayout="column">
+  <!-- Toolbar -->
+  <div fxLayout="row">
+    <div class="toolbar" role="banner">
+      <!-- <img width="40" alt="menu" src="../assets/menuIcon.png" /> -->
+      <span class="img menu"></span>
+      <span class="">Users</span>
+      <div class="spacer"></div>
+      <a aria-label="user" title="User">
+        <span class="img user"></span>
+        <div class="username">John Doe</div>
+      </a>
+    </div>
+  </div>
+  <!-- table started -->
+  <div class="users" fxLayout="row">
+    <div fxFlex="80" class="user-table">
+      <app-user-table></app-user-table>
+    </div>
+    <div fxFlex="20" class="progess-sec">
+      <app-progress></app-progress>
+    </div>
+  </div>
+</div>

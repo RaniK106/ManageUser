@@ -1,0 +1,18 @@
+.img{
+    background-repeat: round;
+    height: 58px;
+    width: 50px;
+}
+.img.menu { 
+    background-image: url("./../assets/menuIcon.png");
+    margin-right: 15px;
+  }
+  .img.user { 
+    background-image: url("./../assets/user.jpg");
+    float: left;
+  }
+
+  .username{
+    float: right;
+    padding: 18px;
+  }
