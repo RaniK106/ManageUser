@@ -1,0 +1,8 @@
+.mat-table{
+    width: 100% !important;
+    background: #ffff !important;
+    box-shadow: none;
+}
+.mat-cell, .mat-footer-cell, .mat-header-cell{
+    color: black !important;
+}
